@@ -2,9 +2,9 @@
 package gittesting;
 
 public class GitTestingSecondBranch {
- 
-    public void hello(String Hello){
-        System.out.println(Hello);
+    public String hello(String hello){
+        String test1 = hello + " User";
+        return test1;
     }
     
 }
