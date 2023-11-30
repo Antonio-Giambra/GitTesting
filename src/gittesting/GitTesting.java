@@ -5,7 +5,9 @@ public class GitTesting {
        int sum = 9;
        String hola  = "hola";
        boolean AEI = true;
-       System.out.println("Or be your own Villian");
+       GitTestingSecondBranch greet = new GitTestingSecondBranch();
+       
+       System.out.println(greet.hello(hola) + " You most be your own Villian");
     }
     
 }
