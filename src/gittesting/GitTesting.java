@@ -3,9 +3,11 @@ package gittesting;
 public class GitTesting {
     public static void main(String[] args) {
        int sum = 9;
-       String hola  = "hola";
+       String hola  = "hello";
        boolean AEI = true;
-       System.out.println("Or be your own Villian");
+       GitTestingSecondBranch greet = new GitTestingSecondBranch();
+       
+       System.out.println(greet.hello(hola) + " You most be your own Villian");
     }
     
 }
