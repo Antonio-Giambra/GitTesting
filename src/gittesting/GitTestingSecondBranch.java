@@ -2,8 +2,8 @@
 package gittesting;
 
 public class GitTestingSecondBranch {
-    static String Hello = "Hello World";
-    public static void hello(){
+ 
+    public void hello(String Hello){
         System.out.println(Hello);
     }
     
